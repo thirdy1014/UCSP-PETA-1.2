@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>UCSP PT 1.2</title>
+
+        <link rel="stylesheet" type="text/css" href="design.css">
+        <link rel="stylesheet" type="text/css" href="navdesign.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+
+    <body>
+
+        <div id="main">
+
+            <h1>MESSAGE OF ENCOURAGEMENT</h1>
+            <hr style="width: 100%;">
+            <div id="infolist">
+                <div class="info" id="left-pic">
+                        <img src="photos/mess3.png" data-aos="fade-right" alt="mess3.png" id = "messpics">
+                    <div class="indesc"  data-aos="fade-down">
+                        <p style="text-align: left;">Look around you. Look at the community you’re in. Do you see all the burdened and poor groups of people in your area? Depressing isn’t it? Humiliating perhaps, knowing that we have the capabilities to help address this problem and probably relieve these people of their pain and suffering. Exactly what capabilities do we have, though, to help aid these people? Well joining organizations and groups whose vision and mission is to support these people would be a great start.</p>
+                        
+                        <p style="text-align: left;">As an adult, it could be a huge start to join PBSP. Being an organization whose main goal is to help alleviate poverty, PBSP is a great way to start the change within yourself. With multiple projects being held to eradicate the problem of poverty, PBSP has been one of the leading organizations in starting the change in this poverty-struck nation and you can easily join them as one of the people who sought for a better world. </p>
+                       
+                        <p style="text-align: left;">Looking for a career to venture into as an nearing-college student? Try considering criminology or law enforcement. Should you want to make a change and protect the people in your community, joining the PNP is one of the best ways to do so. Whether it be through protecting the citizens or helping in the distribution of goods, joining the police force will be the start you are looking for, to change the community for the better.</p>
+                       
+                        <p style="text-align: left;">Are you a teacher, accountant, sister, janitor or parent looking for a school to enroll your child in? Well SHS-HdJ is the perfect place for you if you're looking to be the change in your community as well. Being both a religious and educational institution, we can help you develop into the person you all seek to grow as. You come in curious and seeking for help, and we assure you that you’ll leave this school as a proactive and compassionate member of society, readily looking to change the community inch by inch for the better. </p>
+                        
+                        <p style="text-align: left;">Tons of people around the world were not blessed enough to receive what we have. It’s about time we stop watching from behind the scenes, knowing that we can always do more, and start enacting this change that we wish. Be the man who you wish to be. Be the man who people need you to be. Be the catalyst of development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar">
+         <a href="index.html">HOME</a>
+         <a href="socorg.html">SOCIAL ORGANIZATIONS</a>
+         <a href="ingroup.html">IN-GROUPS</a>
+         <a href="refgroup.html">REFERENCE GROUPS</a>
+         <a href="primgroup.html">PRIMARY GROUP</a>
+         <a href="secgroup.html">SECONDARY GROUPS</a>
+         <a href="message.html" class="active">MESSAGE</a>
+        </div>
+
+        <script>
+
+            AOS.init({duration: 1500,});
+            $(window).on('load', function () {
+                AOS.refresh();
+            });
+            window.addEventListener('load', AOS.refresh());
+
+            $(document).ready(function () {
+
+                $('body').fadeIn(2000);
+
+                $('#back').hover(function(){
+                    $(this).css('background-color', '#FDFEFD');
+                    $(this).css('color', '#F3C62A');
+                    $(this).css('border', '#A4A5A4');
+                }, function(){
+                    $(this).css('color', '#FDFEFD');
+                    $(this).css('background-color', '#F3C62A');
+                    $(this).css('border', '#F3C62A');
+                });
+            });
+
+        </script>
+
+    </body>
+</html>

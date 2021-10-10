@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>UCSP PT 1.2</title>
+
+        <link rel="stylesheet" type="text/css" href="design.css">
+        <link rel="stylesheet" type="text/css" href="navdesign.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+
+    <body>
+        <div id="home" data-aos="zoom-out">
+            <img class="desktop" src="photos/home bg.png" alt="main bg.png" id = "photoshop">
+        </div>
+
+        <div class="navbar">
+         <a href="index.html" class="active">HOME</a>
+         <a href="socorg.html">SOCIAL ORGANIZATIONS</a>
+         <a href="ingroup.html">IN-GROUPS</a>
+         <a href="refgroup.html">REFERENCE GROUPS</a>
+         <a href="primgroup.html">PRIMARY GROUP</a>
+         <a href="secgroup.html">SECONDARY GROUPS</a>
+         <a href="message.html">MESSAGE</a>
+
+
+        </div>
+
+        
+
+        <script>
+            AOS.init({duration: 1500,});
+            $(window).on('load', function () {
+                AOS.refresh();
+            });
+            window.addEventListener('load', AOS.refresh());
+        </script>
+    </body>
+</html>
